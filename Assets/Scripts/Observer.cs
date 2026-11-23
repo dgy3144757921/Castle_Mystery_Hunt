@@ -19,14 +19,14 @@ public class Observer : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)//进入扫描范围
     {
-        if(other.gameObject == Player.gameObject)
+        if(other.CompareTag("Player"))
         {
             isInRange = true;
         }
     }
     private void OnTriggerExit(Collider other)//离开扫描范围
     {
-        if (other.gameObject == Player.gameObject)
+        if (other.CompareTag("Player"))
         {
             isInRange = false;
         }
@@ -44,7 +44,7 @@ public class Observer : MonoBehaviour
 
             if(Physics.Raycast(ray, out raycastHit) )//参数1：射线，参数2：out碰撞信息
             {
-                if(raycastHit.collider.transform == Player)
+                if(raycastHit.collider.CompareTag("Player"))
                 {
                     if (Time.time - lastDamageTime >= damageInterval)
                     {

@@ -31,7 +31,7 @@ public class Coin : MonoBehaviour
         {
             return;
         }
-        if (other.gameObject == player)
+        if (other.CompareTag("Player"))
         {
             playerAttributes.AddCoin(coinValue);
             isPicked = true;

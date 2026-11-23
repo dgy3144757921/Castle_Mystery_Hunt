@@ -65,7 +65,7 @@ public class GameEnding : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)//进入终点范围
     {
-        if(other.gameObject == player)//游戏角色碰到触发器
+        if(other.CompareTag("Player"))//游戏角色碰到触发器
         {
             isExit = true;//判断游戏胜利
         }
@@ -73,7 +73,7 @@ public class GameEnding : MonoBehaviour
 
     private void OnTriggerExit(Collider other)//离开终点范围
     {
-        if (other.gameObject == player)//游戏角色碰到触发器
+        if (other.CompareTag("Player"))//游戏角色碰到触发器
         {
             isExit = false;
         }

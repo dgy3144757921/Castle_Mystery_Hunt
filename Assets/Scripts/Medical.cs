@@ -32,7 +32,7 @@ public class Medical : MonoBehaviour
         {
             return;
         }
-        if (other.gameObject == player)
+        if (other.CompareTag("Player"))
         {
             playerAttributes.AddHp(med);
             isPicked = true;
