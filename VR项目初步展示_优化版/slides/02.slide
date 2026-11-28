@@ -1,0 +1,27 @@
+<Slide style={{ width: 1280, height: 720, padding: 0, background: '#FFFFFF' }}>
+  {/* 统一标题区 */}
+  <Box style={{ position: 'absolute', left: 80, top: 58, flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+    <Box style={{ width: 6, height: 34, background: '#1F5C99' }} />
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#0F2A47' }}>目录</Text>
+  </Box>
+  <Box style={{ position: 'absolute', left: 80, top: 112, width: 1120, height: 1, background: '#D7DEE6' }} />
+
+  <Box style={{ position: 'absolute', left: 80, top: 148, width: 1120, flexDirection: 'column', gap: 16 }}>
+    {[
+      { no: '一', name: '项目主题与玩法' },
+      { no: '二', name: 'VR 相关技术' },
+      { no: '三', name: '项目团队' },
+      { no: '四', name: '项目进度' },
+    ].map((item, idx) => (
+      <Box key={idx} style={{ flexDirection: 'row', alignItems: 'center', gap: 24, background: '#F6F9FC', border: '1px solid #E6EDF4', borderRadius: 6, paddingTop: 24, paddingBottom: 24, paddingLeft: 28 }}>
+        <Box style={{ width: 48, height: 48, borderRadius: 24, background: '#1F5C99', justifyContent: 'center', alignItems: 'center' }}>
+          <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#FFFFFF' }}>{item.no}</Text>
+        </Box>
+        <Text style={{ fontSize: 30, color: '#1F2937' }}>{item.name}</Text>
+      </Box>
+    ))}
+  </Box>
+
+  <Text style={{ position: 'absolute', left: 80, bottom: 30, fontSize: 13, color: '#9CA3AF' }}>古堡寻秘 · VR密室逃脱游戏</Text>
+  <Text style={{ position: 'absolute', right: 80, bottom: 30, fontSize: 13, color: '#9CA3AF' }}>02 / 09</Text>
+</Slide>

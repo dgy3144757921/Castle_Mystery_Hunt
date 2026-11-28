@@ -1,0 +1,26 @@
+<Slide style={{ width: 1280, height: 720, padding: 0, background: '#FFFFFF' }}>
+  <Box style={{ position: 'absolute', left: 80, top: 58, flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+    <Box style={{ width: 6, height: 34, background: '#1F5C99' }} />
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#0F2A47' }}>玩法机制</Text>
+  </Box>
+  <Box style={{ position: 'absolute', left: 80, top: 112, width: 1120, height: 1, background: '#D7DEE6' }} />
+
+  <Box style={{ position: 'absolute', left: 80, top: 148, width: 1120, flexDirection: 'column', gap: 14 }}>
+    {[
+      '玩家通过控制角色（VR 控制器），在古堡中探索。',
+      '在游戏中，玩家可以通过收集地图中的金币来达成胜利。',
+      '玩家有固定的血量上限，在地图中，玩家会遇到一些怪物，当受到怪物攻击时会扣除生命值。',
+      '当玩家的生命值小于等于 0 时，判定玩家死亡，游戏失败。',
+    ].map((t, idx) => (
+      <Box key={idx} style={{ flexDirection: 'row', alignItems: 'center', gap: 22, background: '#F6F9FC', border: '1px solid #E6EDF4', borderRadius: 6, padding: 18, paddingLeft: 24 }}>
+        <Box style={{ width: 36, height: 36, borderRadius: 18, background: '#1F5C99', justifyContent: 'center', alignItems: 'center', flexShrink: 0 }}>
+          <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#FFFFFF' }}>{idx + 1}</Text>
+        </Box>
+        <Text style={{ fontSize: 21, color: '#1F2937', lineHeight: 1.6 }}>{t}</Text>
+      </Box>
+    ))}
+  </Box>
+
+  <Text style={{ position: 'absolute', left: 80, bottom: 30, fontSize: 13, color: '#9CA3AF' }}>古堡寻秘 · VR密室逃脱游戏</Text>
+  <Text style={{ position: 'absolute', right: 80, bottom: 30, fontSize: 13, color: '#9CA3AF' }}>05 / 09</Text>
+</Slide>

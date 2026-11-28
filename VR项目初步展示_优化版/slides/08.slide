@@ -1,0 +1,21 @@
+<Slide style={{ width: 1280, height: 720, padding: 0, background: '#FFFFFF' }}>
+  <Box style={{ position: 'absolute', left: 80, top: 58, flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+    <Box style={{ width: 6, height: 34, background: '#1F5C99' }} />
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#0F2A47' }}>项目进度</Text>
+  </Box>
+  <Box style={{ position: 'absolute', left: 80, top: 112, width: 1120, height: 1, background: '#D7DEE6' }} />
+
+  <Box style={{ position: 'absolute', left: 80, top: 168, width: 1120, flexDirection: 'row', gap: 28 }}>
+    <Box style={{ flex: 1, background: '#F6F9FC', border: '1px solid #E6EDF4', borderRadius: 8, padding: 28, flexDirection: 'column', gap: 18, minHeight: 280 }}>
+      <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1F5C99' }}>目前已经完成</Text>
+      <Text style={{ fontSize: 21, color: '#1F2937', lineHeight: 1.75 }}>目前已经搭建好项目场景，基础的游戏功能和游戏机制也已经实现。</Text>
+    </Box>
+    <Box style={{ flex: 1, background: '#F6F9FC', border: '1px solid #E6EDF4', borderRadius: 8, padding: 28, flexDirection: 'column', gap: 18, minHeight: 280 }}>
+      <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1F5C99' }}>下一步计划</Text>
+      <Text style={{ fontSize: 21, color: '#1F2937', lineHeight: 1.75 }}>下一步将把课上学习的知识结合进项目当中，如密码锁 Combo Lock、铰链机关实现开门等功能</Text>
+    </Box>
+  </Box>
+
+  <Text style={{ position: 'absolute', left: 80, bottom: 30, fontSize: 13, color: '#9CA3AF' }}>古堡寻秘 · VR密室逃脱游戏</Text>
+  <Text style={{ position: 'absolute', right: 80, bottom: 30, fontSize: 13, color: '#9CA3AF' }}>08 / 09</Text>
+</Slide>

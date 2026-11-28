@@ -1,0 +1,22 @@
+<Slide style={{ width: 1280, height: 720, padding: 0, background: '#FFFFFF' }}>
+  {/* 封面主视觉 */}
+  <Image src="assets/cover.png" style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 720, objectFit: 'cover' }} />
+  <Box style={{ position: 'absolute', bottom: 0, left: 0, width: 1280, height: 300, background: '#FFFFFF' }} />
+  <Box style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 720, background: 'linear-gradient(180deg, rgba(255,255,255,0) 45%, rgba(255,255,255,0.15) 58%, rgba(255,255,255,1) 64%)' }} />
+
+  <Box style={{ position: 'absolute', left: 80, top: 92, flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+    <Box style={{ width: 6, height: 22, background: '#1F5C99' }} />
+    <Text style={{ fontSize: 20, color: '#374151' }}>虚拟现实技术 · 大作业内容构思</Text>
+  </Box>
+
+  <Box style={{ position: 'absolute', left: 80, top: 448, width: 1120, flexDirection: 'column', gap: 12 }}>
+    <Text style={{ fontSize: 64, fontWeight: 'bold', color: '#0F2A47', lineHeight: 1.15 }}>古堡寻秘</Text>
+    <Text style={{ fontSize: 28, color: '#1F3B5C' }}>VR 密室逃脱游戏</Text>
+    <Box style={{ width: 1120, height: 1, background: '#D7DEE6', marginTop: 10 }} />
+    <Text style={{ fontSize: 18, color: '#6B7280', marginTop: 6 }}>数字媒体技术专业 · 期末项目初步展示</Text>
+  </Box>
+
+  {/* 统一页脚 */}
+  <Text style={{ position: 'absolute', left: 80, bottom: 30, fontSize: 13, color: '#9CA3AF' }}>古堡寻秘 · VR密室逃脱游戏</Text>
+  <Text style={{ position: 'absolute', right: 80, bottom: 30, fontSize: 13, color: '#9CA3AF' }}>01 / 09</Text>
+</Slide>

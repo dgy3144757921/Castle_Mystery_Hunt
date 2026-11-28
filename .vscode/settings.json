@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Castle_Mystery_Hunt.sln"
+    "dotnet.defaultSolution": "VR期末作业项目.sln"
 }

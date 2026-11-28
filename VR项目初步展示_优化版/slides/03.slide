@@ -1,0 +1,29 @@
+<Slide style={{ width: 1280, height: 720, padding: 0, background: '#FFFFFF' }}>
+  <Box style={{ position: 'absolute', left: 80, top: 58, flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+    <Box style={{ width: 6, height: 34, background: '#1F5C99' }} />
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#0F2A47' }}>组员</Text>
+  </Box>
+  <Box style={{ position: 'absolute', left: 80, top: 112, width: 1120, height: 1, background: '#D7DEE6' }} />
+
+  <Box style={{ position: 'absolute', left: 80, top: 152, width: 1120, flexDirection: 'column', gap: 28 }}>
+    <Box style={{ background: '#F6F9FC', border: '1px solid #E6EDF4', borderRadius: 8, padding: 32, flexDirection: 'column', gap: 20 }}>
+      <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#1F5C99' }}>数字媒体技术 2 班</Text>
+      <Box style={{ flexDirection: 'row', gap: 72 }}>
+        <Text style={{ fontSize: 30, color: '#1F2937' }}>邓广毅</Text>
+        <Text style={{ fontSize: 30, color: '#1F2937' }}>杨创沛</Text>
+      </Box>
+    </Box>
+
+    <Box style={{ background: '#F6F9FC', border: '1px solid #E6EDF4', borderRadius: 8, padding: 32, flexDirection: 'column', gap: 20 }}>
+      <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#1F5C99' }}>数字媒体技术 3 班</Text>
+      <Box style={{ flexDirection: 'row', gap: 72 }}>
+        <Text style={{ fontSize: 30, color: '#1F2937' }}>邓广政</Text>
+        <Text style={{ fontSize: 30, color: '#1F2937' }}>阮子耀</Text>
+        <Text style={{ fontSize: 30, color: '#1F2937' }}>刘广鸿</Text>
+      </Box>
+    </Box>
+  </Box>
+
+  <Text style={{ position: 'absolute', left: 80, bottom: 30, fontSize: 13, color: '#9CA3AF' }}>古堡寻秘 · VR密室逃脱游戏</Text>
+  <Text style={{ position: 'absolute', right: 80, bottom: 30, fontSize: 13, color: '#9CA3AF' }}>03 / 09</Text>
+</Slide>

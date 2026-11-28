@@ -1,0 +1,29 @@
+<Slide style={{ width: 1280, height: 720, padding: 0, background: '#FFFFFF' }}>
+  <Box style={{ position: 'absolute', left: 80, top: 58, flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+    <Box style={{ width: 6, height: 34, background: '#1F5C99' }} />
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#0F2A47' }}>VR 相关</Text>
+  </Box>
+  <Box style={{ position: 'absolute', left: 80, top: 112, width: 1120, height: 1, background: '#D7DEE6' }} />
+
+  <Box style={{ position: 'absolute', left: 80, top: 144, width: 1120, flexDirection: 'column', gap: 12 }}>
+    {[
+      { no: '1', title: 'XR 控制器', desc: '将玩家角色及其移动脚本设置由 XR 控制器控制，实现角色移动以及场景交互' },
+      { no: '2', title: '设置交互机关', desc: '在游戏中设置交互机关如拼接机关 Socket、密码锁 Combo Lock、滚动条 Slider 等逻辑并添加事件监听，当 拼接/解锁/滑动 完成后通过铰链机构实现开门。' },
+      { no: '3', title: '角色与场景机关之间的交互', desc: '添加如持续抓取 Grab 某武器，可杀死怪物等功能模块。' },
+      { no: '4', title: 'UI', desc: 'UI 面板' },
+    ].map((it, idx) => (
+      <Box key={idx} style={{ flexDirection: 'row', alignItems: 'flex-start', gap: 18, background: '#F6F9FC', border: '1px solid #E6EDF4', borderRadius: 6, padding: 16, paddingLeft: 20 }}>
+        <Box style={{ width: 30, height: 30, borderRadius: 15, background: '#1F5C99', justifyContent: 'center', alignItems: 'center', flexShrink: 0, marginTop: 3 }}>
+          <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#FFFFFF' }}>{it.no}</Text>
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'column', gap: 4 }}>
+          <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#0F2A47' }}>{it.title}</Text>
+          <Text style={{ fontSize: 18, color: '#374151', lineHeight: 1.6 }}>{it.desc}</Text>
+        </Box>
+      </Box>
+    ))}
+  </Box>
+
+  <Text style={{ position: 'absolute', left: 80, bottom: 30, fontSize: 13, color: '#9CA3AF' }}>古堡寻秘 · VR密室逃脱游戏</Text>
+  <Text style={{ position: 'absolute', right: 80, bottom: 30, fontSize: 13, color: '#9CA3AF' }}>06 / 09</Text>
+</Slide>

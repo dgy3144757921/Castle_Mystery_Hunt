@@ -1,0 +1,23 @@
+<Slide style={{ width: 1280, height: 720, padding: 0, background: '#FFFFFF' }}>
+  <Box style={{ position: 'absolute', left: 80, top: 58, flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+    <Box style={{ width: 6, height: 34, background: '#1F5C99' }} />
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#0F2A47' }}>主题</Text>
+  </Box>
+  <Box style={{ position: 'absolute', left: 80, top: 112, width: 1120, height: 1, background: '#D7DEE6' }} />
+
+  {/* 左侧配图 */}
+  <Box style={{ position: 'absolute', left: 80, top: 148, width: 520, height: 468, borderRadius: 8, overflow: 'hidden', border: '1px solid #E2E8F0' }}>
+    <Image src="assets/castle_scene.png" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+  </Box>
+
+  {/* 右侧原文描述 */}
+  <Box style={{ position: 'absolute', left: 628, top: 148, width: 572, flexDirection: 'column', gap: 16 }}>
+    <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1F5C99', marginBottom: 2 }}>VR 密室逃脱游戏《古堡寻秘》</Text>
+    <Text style={{ fontSize: 19, color: '#1F2937', lineHeight: 1.75 }}>以 3D URP 游戏作为模板，作为项目的主体。</Text>
+    <Text style={{ fontSize: 19, color: '#1F2937', lineHeight: 1.75 }}>玩家通过控制角色（VR 控制器），在古堡中探索。在游戏中，玩家可以通过收集地图中的金币来达成胜利。</Text>
+    <Text style={{ fontSize: 19, color: '#1F2937', lineHeight: 1.75 }}>玩家有固定的血量上限，在地图中，玩家会遇到一些怪物，当受到怪物攻击时会扣除生命值，当玩家的生命值小于等于 0 时，判定玩家死亡，游戏失败。</Text>
+  </Box>
+
+  <Text style={{ position: 'absolute', left: 80, bottom: 30, fontSize: 13, color: '#9CA3AF' }}>古堡寻秘 · VR密室逃脱游戏</Text>
+  <Text style={{ position: 'absolute', right: 80, bottom: 30, fontSize: 13, color: '#9CA3AF' }}>04 / 09</Text>
+</Slide>
